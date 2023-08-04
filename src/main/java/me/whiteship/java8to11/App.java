@@ -65,6 +65,8 @@ public class App {
 
         System.out.println(springClasses.stream().count());
 
+        System.out.println("git Test를 위해서 커밋해봅시다");
+
     }
 
 
