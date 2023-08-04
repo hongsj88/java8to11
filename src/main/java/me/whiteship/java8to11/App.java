@@ -65,6 +65,9 @@ public class App {
 
         System.out.println(springClasses.stream().count());
 
+        System.out.println("git을 배우고 있습니다.");
+        System.out.println("git에 로컬저장소의 변경사항을 저장합니다.");
+
     }
 
 
