@@ -1,9 +1,22 @@
 package me.whiteship.java8to11;
 
+import javax.swing.text.html.Option;
+import java.util.Optional;
+
 public class OnlineClass {
     private int id;
     private String title;
     private boolean closed;
+
+    private Progress progress;
+
+    public Optional<Progress> getProgress() {
+        return Optional.ofNullable(progress);
+    }
+
+    public void setProgress(Progress progress) {
+        this.progress = progress;
+    }
 
     public OnlineClass(int id, String title, boolean closed) {
         this.id = id;
